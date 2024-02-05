@@ -1,0 +1,16 @@
+server:
+  port: 8081
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: acme-corporation-client
+            client-secret: ${keycloak-client-secret}
+            scope: openid, profile, email
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:2727/realms/acme-corporation
+frontend:
+  url: http://localhost:3000
