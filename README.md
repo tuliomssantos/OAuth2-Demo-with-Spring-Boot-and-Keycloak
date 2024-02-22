@@ -2,9 +2,6 @@
 
 This repository contains an example OAuth2 resource server and client implemented using Spring Boot, along with a Next.js frontend.
 
-## Show Your Support
-If this project helped you, please give it a ⭐️.
-
 ## Overview
 
 The project demonstrates the integration of Keycloak as an identity manager and authorization server.
