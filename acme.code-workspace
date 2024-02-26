@@ -1,0 +1,17 @@
+{
+    "folders": [
+        {
+            "path": "web"
+        },
+        {
+            "path": "acme-client"
+        },
+        {
+            "path": "acme-resource-server"
+        }
+    ],
+    "settings": {
+        "java.compile.nullAnalysis.mode": "disabled",
+        "java.configuration.updateBuildConfiguration": "interactive"
+    }
+}
